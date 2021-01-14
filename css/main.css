@@ -1,41 +1,44 @@
-html,body,.cover{
+html,
+body,
+.cover {
   height: 100%;
 }
 
-.cover{
-  background: url('https://images.unsplash.com/photo-1599148805516-b383d770d5de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')top left no-repeat;
+.cover {
+  background: url("https://images.unsplash.com/photo-1599148805516-b383d770d5de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60")
+    top left no-repeat;
   background-size: cover;
   display: table;
-  width: 100%
-
-
+  width: 100%;
 }
 
-
-.cover-text{
+.cover-text {
   text-align: center;
   color: white;
   display: table-cell;
   vertical-align: middle;
-
 }
 
-.cover-text h1{
+.cover-text h1 {
   margin: 0px;
   font-size: 70px;
   letter-spacing: -3px;
 }
-
-nav.navbar-inverse {
-    background: rgba(0, 0, 0, 0.5);
-    border: none;
+#proj a {
+  text-decoration: none;
+  color: azure;
 }
 
-.testimonial{
+nav.navbar-inverse {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.abt {
   background: #222;
 }
 
-blockquote{
+blockquote {
   border: none;
   margin: 0;
   font-family: Georgia, Times, serif;
@@ -44,23 +47,33 @@ blockquote{
   color: white;
 }
 
-blockquote cite{
+blockquote cite {
   display: block;
   text-align: right;
   text-transform: uppercase;
-  font-family: Helvetica, Arie;, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: bold;
   color: #888;
   margin-top: 40px;
 }
 
-
-section{
+section {
   padding: 100px;
 }
+.navbar-brand {
+  font-family: "Merienda", cursive;
+}
+.cover-text h1 {
+  font-family: "Indie Flower", cursive;
+}
 
-h2{
+.cover-text .lead {
+  font-family: "Coming Soon", cursive;
+  font-size: 1.75rem;
+}
+
+h2 {
   text-align: center;
   font-size: 28px;
   font-weight: bold;
@@ -68,36 +81,44 @@ h2{
   margin: 0 0 60px;
 }
 
-h2+p{
+h2 + p {
   text-align: center;
 }
+.abt h2 {
+  color: white;
+  text-align: left;
+  font-size: 28px;
+  font-weight: bold;
+}
+.abt blockquote {
+  font-family: "Roboto Condensed", sans-serif;
+}
 
-#team{
-  background: url('https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60')top left no-repeat;
-  background-size:cover;
+#proj {
+  background: url("https://images.unsplash.com/photo-1554050857-c84a8abdb5e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60")
+    top left no-repeat;
+  background-size: cover;
   color: white;
   text-align: center;
-
 }
 
-footer{
+footer {
   background: #222;
   color: white;
   text-align: center;
   padding: 20px;
-  font-family: Georgia,Times, serif;
+  font-family: Georgia, Times, serif;
 }
 
-footer a{
+footer a {
   color: hotpink;
 }
 
-
-@media only screen and(max-width:568px){
-  .cover h1{
+@media only screen and(max-width:568px) {
+  .cover h1 {
     font-size: 40px;
   }
-  section{
+  section {
     padding: 20px;
   }
 }
